@@ -8,7 +8,7 @@ Instructions:
 3. Format: CSV
 4. Choose Location where Private Keys will be saved
 5. Export.
-6. Go to a terminal, and type (Unix/Mac):
+6. Go to a terminal (Unix/Mac) and type:
 ```
 git clone https://github.com/aguycalled/convertelectrumkey && cd convertelectrumkey
 python import_electrum_pk.py /Location/Where/Private/Keys.Are.Saved.csv
