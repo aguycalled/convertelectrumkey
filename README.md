@@ -1,1 +1,51 @@
 # convertelectrumkey
+
+Instructions:
+
+1. Go to NavCoin Electrum
+2. Wallet -> Private Keys -> Export
+3. Enter your password
+3. Format: CSV
+4. Choose Location where Private Keys will be saved
+5. Export.
+6. Go to a terminal, 'git clone https://github.com/aguycalled/convertelectrumkey && cd convertelectrumkey'
+7. python import_electrum_pk.py /Location/Where/Private/Keys.Are.Saved.csv
+
+Sample Output:
+
+$ python convert ../electrum-private-keys.csv 
+NavCoin Address: NR9eUDCyWGX3W89NDXvNRaV1uFBzHZ8acb Private Key: PGeYWC4vojjeQgUN9g9sJWLLk7GRR42JHjGT42bwTuX8PLANNmju
+NavCoin Address: NWFv9XiurZ2NNQ93TYihtAxGu9pE6d9aKx Private Key: PEKCxr5UumXa11tYmnNgDWkTKgjQgRWy5dhhTvUtXUS7PrbG6ciH
+NavCoin Address: NXTyigN9qDZuTi27uyLXzoegYJkt5DqBoE Private Key: PD44ud5b89d4sz4FV3BXHiJJDDvNoPVTSeNmp5aNwgn8noTXRCsJ
+NavCoin Address: NdgQZtSTyzJPSkgd6av4NccuLQgcjEsXZH Private Key: PCHXHZ82ua4Zop9sokbc3Z2cvnP7UuHyr9zGPakzpTpNzbvYNsC9
+NavCoin Address: NX8mYM24o1DUh24SFVHBid4GXsX9uxToNd Private Key: PKjQnv5Kp7CcJFZEtXAXjh2YKBJpaAsNxnx3JBscJA2nj9DPWFTL
+NavCoin Address: NRkRkVYK4NXUKh8f3SsoUfQdjxKt8MZiLi Private Key: PDg1b9auN4VUr9CThnWdsp9raLPZsbLjsyabJAzMREw2g5M1C9qS
+NavCoin Address: NTnDh8zqJ5fXPCbobdpxjBLVdZYwpqZgXA Private Key: PHjqyDxhPhZthSiRprYkvbsLvJZCzqcwq1xP8PqQsJoiSi6AJWJi
+NavCoin Address: NaRSwiUojZvnq3sRUUUVMm5jH4H17L3tgM Private Key: PDsKHz3go1uZWqTKFW6mX4VJ2hevr6E9uqpk9HhjEsemxJF2JW6d
+NavCoin Address: NVp7Muy6HXStUByffbRUn4dhxw6BSX3fGa Private Key: PJp1Nr1Xu9L3nDKvwvcBR7B26KQd3NSYp1J6ZgGpgG5tuF8yUzWB
+NavCoin Address: NbaJVWX8YKquGHn7qzVfcfrSRykqWFQat8 Private Key: PCYc6BspcE7KDDG2jRJ3eEPoJpGx7aBqUbbu86taY7JKqNQdqKEm
+NavCoin Address: Nc7A7rTEHKPVSo9Ap1PUuiYWKu6tJHR8aS Private Key: PLFxsWYyerCtWvsffJrywkJsKvDwsDWFPzGvB3FAsxLVikMkHZ3o
+NavCoin Address: NPukC3ztCkq56CPrTKVZPjLTP194zqcTiD Private Key: PFrBn8wXdmv4Mr3rGVMyQhTQ2Skquo5XSsKHjD6hjvaFcjoYtPyx
+NavCoin Address: NMzztaZNeTNwwxSMpygy9aEAVdJ5HQnY5L Private Key: PHg7d2srYVThedGaogtjzcovPhCqkJv1BaHxGH2k1bEYqhLqKUNy
+NavCoin Address: NLgp6wJBumrAFW8S6qGcubku1cp9c7dcaC Private Key: PJWLCxZjEwtE9eQhJagJ5tS5n4mq9rxUq9FB3NkXBkzfe5xtxAvb
+NavCoin Address: NUWGcfkzvZY5c6661ub2Ksrp8z47EbT8Eo Private Key: PKjCaxAaw9GKyAqvf6yToZCxoG7yqJf2Z9NvZQMFkpufXKVrXwww
+NavCoin Address: NXWHhkSsTkYyvVb4imVXKdH3y7GUKRtcrU Private Key: PCXZsgGk6bvFKfAhHHp3RXG2g5nu5bs5BXRJgUCaorzGpaaQPjTS
+NavCoin Address: NhFH4454MieHT24qt69aCzVexSd3aqmLp9 Private Key: PDz7BWZ7seLPKH9fDksHUzVfW8b96R1C7NFvudXgnapj1AEvBoJw
+NavCoin Address: NVLsjQAMwfwYqNsurmmqCQvzK8CvXXv3N1 Private Key: PFBVRV8K4vTNuG86vZN9ZyzojYxaDuSWB9qELLjYmhP59Tqb4oyC
+NavCoin Address: NY9hX99YFmRepK7xSPmZ9yQnTR7VDMoHQd Private Key: PJ8XyXEPbVU8ooToxtZGSeVvVuJh6gjPQJtMp4vvTEjSf5c8tpHH
+NavCoin Address: NQ3xQ4j3GzfXiMYh4gdFCN91Ts9awEFTSe Private Key: PGuX3XpkJWxhnzYqG1buGyhGPu1JwzfBa8bUtCnQKEpmPh7uhSzZ
+NavCoin Address: NNPk1y6iW2T8FwLUXVrxcX34UUXns9nuTd Private Key: PKTMinNfiq1dLnHWyFZqxzM1hefxxJpZo1pvxW8apgSCJuFQc21h
+NavCoin Address: NUKuXsKrvnx1cVLSH5XCDtp7Pi2psyi95j Private Key: PFxSNvWfveFVKLPY2UV1zbkfCaB9GxXiFUcGX4xugwTSFLtGYRJM
+NavCoin Address: NaWeksRbKNNDrohVNKmTpSkWgKuHDs7LfL Private Key: PFUk4F7dhMz873g7quZ8w5XJ1DMAFL91HWr7T8N9dUzBu58HWfRL
+NavCoin Address: NSdG21XY8c22iCyQAe3LUaWrEp3txsT4ee Private Key: PDfsGM77RhtFSkNyHvZmSfdMWEmmVgvBGAPMEukaxsKFSZF9x9nq
+NavCoin Address: NV6EXmXs2WQW2a5jNtvJ7VTQsihWbYSCq9 Private Key: PLBsw5STbKiMuegM7gjRu5cgwd4HpooHEAFdoYh2VpVibsJda4Vz
+NavCoin Address: NgaLJ2MQgsnQCbUNAUDiG9LMuXgVfpovkJ Private Key: PDhQQeDjqPwxFEEX33HdKvWLZ3un88dW7Gr4viTFVbzFYh7yTcGN
+NavCoin Address: NesVRLPra6gz5bTwPUiPd2PrCBX4n8dmB5 Private Key: PEs5qSCJN143gJ2dMmTLbqdSgzAGFMULW8EdJ9kFBQbw91qKhEiH
+NavCoin Address: NQbMkbfKbEU4xzWV8EpLoNygMzttyFPrNh Private Key: PJ5KPTp4UFHGbVLhbEZfD3SSDX13BBADppzhReWpbhepQj2TXGxZ
+NavCoin Address: NSAp2Tg9AhxSwdLq6GUJiBVkAg5SvGvwkG Private Key: PDM8b4SddEuhg6KQNVTwmwDqNaCP3PU5fCQovSyowy9qkv3qbDb8
+NavCoin Address: NWdaXiVuXSeYHXPm7VLTatMMaAf9NYWPUa Private Key: PJNhozdZPhG72XZnKNGLfCCy3swzFtX9iEXjNuGp3ABn5L2TmXKZ
+NavCoin Address: NRLNcVneVJztWJjAzA3jBAXwzVKDxbKQE5 Private Key: PD1SKRBoKftg9fqGVUasfVUtu4iDVsSoMb68ZRgFKce8PUKt29tr
+
+8. Go to NavCoin Core Wallet
+9. Help -> Debug Window
+10. Import the different private keys using 'importprivkey'. e.g: importprivkey PD1SKRBoKftg9fqGVUasfVUtu4iDVsSoMb68ZRgFKce8PUKt29tr
