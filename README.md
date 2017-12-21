@@ -10,20 +10,20 @@ This is a tool to help users get their coins out of the NavCoin Electrum Wallet.
 
 ## Instructions:
 
-0. Make sure you have the Requirements installed.
-1. Go to NavCoin Electrum
-2. Wallet -> Private Keys -> Export
-3. Enter your password
-3. Format: CSV
-4. Choose Location where Private Keys will be saved
-5. Export
-6. Download this repo:
-  - (Without using git) Download this git repo as a zip and extract it. In your terminal navigate to the extracted directory.
-  - (Using git) Open a terminal (Unix/Mac) or CMD/Powershell (Windows) and type:
-```
-git clone https://github.com/aguycalled/convertelectrumkey && cd convertelectrumkey
-```
-7. After downloading and extracting, in your terminal run
+1. Make sure you have the Requirements installed.
+2. Go to NavCoin Electrum
+3. Wallet -> Private Keys -> Export
+4. Enter your password
+5. Format: CSV
+6. Choose Location where Private Keys will be saved
+7. Export
+8. Download this repo:
+   - (Without using git) Download this git repo as a zip and extract it. In your terminal navigate to the extracted directory.
+   - (Using git) Open a terminal (Unix/Mac) or CMD/Powershell (Windows) and type:
+   ```
+   git clone https://github.com/aguycalled/convertelectrumkey && cd convertelectrumkey
+   ```
+9. After downloading and extracting, in your terminal run
 ```
 python import_electrum_pk.py /Location/Where/Private/Keys.Are.Saved.csv
 ```
@@ -35,9 +35,9 @@ NavCoin Address: NWFv9XiurZ2NNQ93TYihtAxGu9pE6d9aKx Private Key: PEKCxr5UumXa11t
 NavCoin Address: NXTyigN9qDZuTi27uyLXzoegYJkt5DqBoE Private Key: PD44ud5b89d4sz4FV3BXHiJJDDvNoPVTSeNmp5aNwgn8noTXRCsJ
 NavCoin Address: NdgQZtSTyzJPSkgd6av4NccuLQgcjEsXZH Private Key: PCHXHZ82ua4Zop9sokbc3Z2cvnP7UuHyr9zGPakzpTpNzbvYNsC9
 ```
-7. Go to NavCoin Core Wallet
-8. Help -> Debug Window
-9. Import the different private keys using 'importprivkey'. e.g:
+10. Go to NavCoin Core Wallet
+11. Help -> Debug Window
+12. Import the different private keys using 'importprivkey'. e.g:
 ```
 importprivkey PD1SKRBoKftg9fqGVUasfVUtu4iDVsSoMb68ZRgFKce8PUKt29tr
 ```
@@ -59,7 +59,7 @@ importprivkey PD1SKRBoKftg9fqGVUasfVUtu4iDVsSoMb68ZRgFKce8PUKt29tr
     ```
 
 - I'm getting an `SyntaxError: invalid syntax` error?
- - Make sure you have Python Version 2.7.10
+  - Make sure you have Python Version 2.7.10
 
 - Python/Git can't be found even though I have installed them?
   - After installing you may need to close and reopen your terminal/CMD/Powershell.
