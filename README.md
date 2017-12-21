@@ -18,11 +18,11 @@ This is a tool to help users get their coins out of the NavCoin Electrum Wallet.
 6. Choose Location where Private Keys will be saved
 7. Export
 8. Download this repo:
-  - (Without using git) Download this git repo as a zip and extract it. In your terminal navigate to the extracted directory.
-  - (Using git) Open a terminal (Unix/Mac) or CMD/Powershell (Windows) and type:
-```
-git clone https://github.com/aguycalled/convertelectrumkey && cd convertelectrumkey
-```
+   - (Without using git) Download this git repo as a zip and extract it. In your terminal navigate to the extracted directory.
+   - (Using git) Open a terminal (Unix/Mac) or CMD/Powershell (Windows) and type:
+   ```
+   git clone https://github.com/aguycalled/convertelectrumkey && cd convertelectrumkey
+   ```
 9. After downloading and extracting, in your terminal run
 ```
 python import_electrum_pk.py /Location/Where/Private/Keys.Are.Saved.csv
@@ -59,7 +59,7 @@ importprivkey PD1SKRBoKftg9fqGVUasfVUtu4iDVsSoMb68ZRgFKce8PUKt29tr
     ```
 
 - I'm getting an `SyntaxError: invalid syntax` error?
- - Make sure you have Python Version 2.7.10
+  - Make sure you have Python Version 2.7.10
 
 - Python/Git can't be found even though I have installed them?
   - After installing you may need to close and reopen your terminal/CMD/Powershell.
